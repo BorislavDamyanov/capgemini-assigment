@@ -8,6 +8,7 @@ public class CapgeminiAssigmentApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CapgeminiAssigmentApplication.class, args);
+        System.out.println("Hello World");
     }
 
 }
