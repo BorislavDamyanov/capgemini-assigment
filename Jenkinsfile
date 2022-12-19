@@ -14,7 +14,6 @@ pipeline {
             steps {
                 sh( script: 'docker images -a')
                 sh(script: """
-                cd capgemini-assigment/
                 docker images -a
                 docker build -t jenkins-pipeline .
                 docker images -a
